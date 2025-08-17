@@ -1,0 +1,45 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+</style>
+
+:root{
+  /* Colores de la marca Louis Vuitton */
+  --marron: #3D2A1E;
+  --dorado: #D5A368e1;
+  --negro: #000000;
+  --blanco: #FFFFFF;
+  --Crema: #EFE6DD;
+}
+
+
+
+body{
+    font-family: "Libre Baskerville", serif;
+  background-color: var(--marron);
+  
+}
+
+
+h1 {
+  background-color: #D5A368e1;
+  color: var(--dorado);
+  font-family: 'font-family: "Libre Baskerville", serif;
+  padding: 20px;
+}
+
+p.intro{
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  background-color: #EFE6DD;
+}
+
+
+.logo {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.logo img {
+    width: 150px;
+}
